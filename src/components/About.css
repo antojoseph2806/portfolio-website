@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #00565c, #ba9629, #5c002c);
+  background: linear-gradient(135deg, #9b0000, #05071c, #05071c);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   color: #ffffff;
@@ -69,8 +69,8 @@
 /* Image styling */
 .about-image img {
   border-radius: 50%;
-  width: 450px;
-  height: 450px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);

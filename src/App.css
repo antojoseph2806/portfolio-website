@@ -1,11 +1,10 @@
 /* Stylish and modern Navbar matching Home section */
-
 .navbar {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(135deg, #00565c, #ba9629, #5c002c);
+  background: linear-gradient(135deg, #9b0000, #05071c, #05071c);
   background-size: 300% 300%;
   animation: navGradient 15s ease infinite;
   backdrop-filter: blur(10px);
@@ -45,15 +44,92 @@
   transform: translateY(-3px);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+.nav-list li a i {
+  font-size: 1.5rem; /* Icon size */
+}
+
+/* Responsive Design for Tablets, Phones, and Laptops */
+
+/* Phones */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 10px;
+  }
+
   .nav-list {
-    flex-direction: column;
-    gap: 20px;
-    padding: 1rem;
+    flex-direction: row; /* Set to row for horizontal layout */
+    justify-content: space-evenly; /* Spread out items evenly */
+    gap: 10px;
+    padding: 0.5rem;
   }
 
   .nav-list li a {
-    font-size: 1rem;
+    font-size: 4vw; /* Font size scales based on screen width */
+    padding: 6px 12px;
+  }
+
+  .nav-list li a i {
+    font-size: 5vw; /* Larger icon size for mobile */
+  }
+}
+
+/* Tablets & Small Laptops */
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar {
+    padding: 0 15px;
+  }
+
+  .nav-list {
+    flex-direction: row; /* Set to row for horizontal layout */
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .nav-list li a {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+
+  .nav-list li a i {
+    font-size: 1.6rem; /* Adjust icon size for small screens */
+  }
+}
+
+/* Larger Laptops and Desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    padding: 0 30px;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .nav-list li a {
+    font-size: 1.2rem;
+  }
+
+  .nav-list li a i {
+    font-size: 1.8rem; /* Larger icon for larger screens */
+  }
+}
+
+/* Full-Screen (Large Desktops) */
+@media (min-width: 1025px) {
+  .navbar {
+    padding: 0 50px;
+  }
+
+  .nav-list {
+    gap: 40px;
+  }
+
+  .nav-list li a {
+    font-size: 1.3rem;
+  }
+
+  .nav-list li a i {
+    font-size: 2rem; /* Even larger icon for large screens */
   }
 }
