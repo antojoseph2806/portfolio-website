@@ -1,0 +1,28 @@
+import React from 'react';
+import './Contact.css';
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa6';
+
+const Contact = () => {
+  return (
+    <section className="contact">
+      <h2>Connect with Me</h2>
+      <div className="social-links">
+        <a href="https://wa.me/+916282289862" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp />
+        </a>
+        <a href="https://www.instagram.com/____an___to____/profilecard/?igsh=MXVmdDh2NHExMjczdA==" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
+        <a href="https://www.linkedin.com/in/antojoseph2806/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/antojoseph2806" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

@@ -1,0 +1,59 @@
+/* Stylish and modern Navbar matching Home section */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(135deg, #00565c, #ba9629, #5c002c);
+  background-size: 300% 300%;
+  animation: navGradient 15s ease infinite;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes navGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  padding: 1rem 2rem;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.nav-list li a {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.nav-list li a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+  }
+
+  .nav-list li a {
+    font-size: 1rem;
+  }
+}
