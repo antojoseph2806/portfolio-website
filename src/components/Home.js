@@ -22,10 +22,10 @@ const Home = () => {
       </div>
 
       <div className="letter-images">
-        <img src="../A.png" alt="A" className="letter letter1" />
-        <img src="../N.png" alt="N" className="letter letter2" />
-        <img src="T.png" alt="T" className="letter letter3" />
-        <img src="O.png" alt="O" className="letter letter4" />
+        <img src="/A.png" alt="A" className="letter letter1" />
+        <img src="/N.png" alt="N" className="letter letter2" />
+        <img src="/T.png" alt="T" className="letter letter3" />
+        <img src="/O.png" alt="O" className="letter letter4" />
       </div>
     </section>
   );

@@ -25,7 +25,7 @@ const About = () => {
 </p>
         </div>
         <div className="about-image">
-          <img src="anto.jpg" alt="Your Name" />
+          <img src="/anto.webp" alt="Your Name" />
         </div>
       </div>
     </section>
