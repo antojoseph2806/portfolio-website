@@ -1,8 +1,16 @@
 import React from 'react';
 import './Contact.css';
-import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp,FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
+  // Detect if the user is on a mobile device
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  // Email link based on device
+  const emailLink = isMobile
+    ? "mailto:antomaruthaniyil@yahoo.com" // for mobile users, opens the default mail app
+    : "https://mail.google.com/mail/?view=cm&fs=1&to=antomaruthaniyil@yahoo.com"; // for desktop, opens Gmail web
+
   return (
     <section className="contact">
       <h2>Connect with Me</h2>
@@ -19,8 +27,8 @@ const Contact = () => {
         <a href="https://github.com/antojoseph2806" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="mailto:antomaruthaniyil@yahoo.com" target="_blank" rel="noopener noreferrer">
-          <FaEnvelope/>
+        <a href={emailLink} target="_blank" rel="noopener noreferrer">
+          <FaEnvelope />
         </a>
       </div>
     </section>
