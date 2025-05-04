@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    background: linear-gradient(135deg, #9b0000, #05071c, #05071c);
+    background-size: 300% 300%;
+    animation: navGradient 15s ease infinite;
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.3);
+    color: #ccc;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: auto;
+    position: relative;
+  }
+  
