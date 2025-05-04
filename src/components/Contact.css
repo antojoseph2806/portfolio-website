@@ -14,7 +14,7 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive,'Segoe Script', cursive;;
 }
 
 /* Gradient animation */
