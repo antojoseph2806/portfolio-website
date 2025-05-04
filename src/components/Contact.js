@@ -19,7 +19,7 @@ const Contact = () => {
         <a href="https://github.com/antojoseph2806" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=antomaruthaniyil@yahoo.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:antomaruthaniyil@yahoo.com" target="_blank" rel="noopener noreferrer">
           <FaEnvelope/>
         </a>
       </div>
