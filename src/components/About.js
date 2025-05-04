@@ -8,8 +8,8 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           
-          <p>Hi, I'm Anto Joseph, a passionate and aspiring Full Stack Developer currently pursuing my Master of Computer Applications (MCA) at Amal Jyothi College of Engineering, Koovappally PO, Kanjirappally, Kerala 686518. and
-            I completed my Bachelor of Computer Applications (BCA) from MES College, Nedumkandam, Chembalam P.O , Udumbanchola, Kerala 685553.
+          <p>Hi, I'm Anto Joseph, a passionate and aspiring Full Stack Developer currently pursuing my Master of Computer Applications (MCA) at Amal Jyothi College of Engineering, Koovappally PO, Kanjirappally, Kerala 686518.<br></br> 
+             I completed my Bachelor of Computer Applications (BCA) from MES College, Nedumkandam, Chembalam P.O , Udumbanchola, Kerala 685553.
             </p>
             <p>What I Bring😊<br></br>
             ○ Frontend Development: Expertise in React.js for building interactive and dynamic UIs.<br></br>

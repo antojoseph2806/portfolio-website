@@ -13,7 +13,6 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  font-family: 'Lucida Handwriting', cursive;
 }
 
 /* Background animation */
@@ -63,13 +62,12 @@
   font-size: 1.2rem;
   line-height: 1.6;
   color: #e0f7fa;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 /* Image styling */
 .about-image img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
