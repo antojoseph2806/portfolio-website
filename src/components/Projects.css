@@ -9,6 +9,7 @@
   text-align: center;
   overflow: hidden;
   position: relative;
+  font-family: 'Lucida Handwriting', cursive;
 }
 
 /* Gradient animation */
@@ -69,7 +70,7 @@
 .project-card p {
   font-size: 1.1rem;
   color: #e0f7fa;
-  font-family: 'Bangers', cursive; /* Comic book style */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 

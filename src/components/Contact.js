@@ -1,7 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FaWhatsapp } from 'react-icons/fa6';
+import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp,FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -19,6 +18,9 @@ const Contact = () => {
         </a>
         <a href="https://github.com/antojoseph2806" target="_blank" rel="noopener noreferrer">
           <FaGithub />
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=antomaruthaniyil@yahoo.com" target="_blank" rel="noopener noreferrer">
+          <FaEnvelope/>
         </a>
       </div>
     </section>

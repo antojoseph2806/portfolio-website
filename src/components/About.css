@@ -13,6 +13,7 @@
   text-align: center;
   overflow: hidden;
   position: relative;
+  font-family: 'Lucida Handwriting', cursive;
 }
 
 /* Background animation */
@@ -62,10 +63,8 @@
   font-size: 1.2rem;
   line-height: 1.6;
   color: #e0f7fa;
-  font-family: 'Bangers', cursive; /* Comic Book Font */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
-
-
 /* Image styling */
 .about-image img {
   border-radius: 50%;
