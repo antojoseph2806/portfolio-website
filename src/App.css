@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(135deg, #9b0000, #05071c, #05071c);
+  background: linear-gradient(135deg, #080036, #800120, #550101);
   background-size: 300% 300%;
   animation: navGradient 15s ease infinite;
   backdrop-filter: blur(10px);

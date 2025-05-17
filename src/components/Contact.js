@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope, FaYoutube } from 'react-icons/fa';
 
 const Contact = () => {
   // Detect if the user is on a mobile device
@@ -18,7 +18,7 @@ const Contact = () => {
         <a href="https://wa.me/+916282289862" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp />
         </a>
-        <a href="https://www.instagram.com/____an___to____/profilecard/?igsh=MXVmdDh2NHExMjczdA==" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/anto_maruthaniyil/profilecard/?igsh=MXVmdDh2NHExMjczdA==" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
         <a href="https://www.linkedin.com/in/antojoseph2806/" target="_blank" rel="noopener noreferrer">
@@ -30,6 +30,9 @@ const Contact = () => {
         <a href={emailLink} target="_blank" rel="noopener noreferrer">
           <FaEnvelope />
         </a>
+        <a href="https://youtube.com/@codecraftbyanto?si=Ji8PsmPatKz9J_zv" target="_blank" rel="noopener noreferrer">
+          <FaYoutube />
+        </a>  
       </div>
     </section>
   );
