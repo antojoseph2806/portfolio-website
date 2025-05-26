@@ -14,10 +14,15 @@ const Home = () => {
 
   return (
     <section className="home">
+      {/* Red background circles */}
+      <div className="red-circle main"></div>
+      <div className="red-circle small1"></div>
+      <div className="red-circle small2"></div>
+
       <div className="home-content">
         <h1 className="fade">Welcome to My Portfolio</h1>
         <p className="fade">
-          I’m <strong>ANTO JOSEPH</strong>, A passionate web developer with expertise in React, Node js and modern web technologies.
+          I’m <strong>ANTO JOSEPH</strong>, A passionate web developer with expertise in React js, Node js and modern web technologies.
         </p>
       </div>
 

@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background: linear-gradient(135deg, #080036, #800120, #550101);
+    background-color: #000000;
     background-size: 300% 300%;
     animation: navGradient 15s ease infinite;
     backdrop-filter: blur(10px);
